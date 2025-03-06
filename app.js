@@ -32,7 +32,7 @@ function sortearAmigo(){
     let numRandom = Math.floor(Math.random() * amigos.length);
     let amigoSecreto = amigos[numRandom];
     
-    amigoSecret.innerHTML = `${amigoSecreto}`;
+    amigoSecret.innerHTML = "El Amigo Secreto es: " + `${amigoSecreto}`;
     }
 
    
